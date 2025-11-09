@@ -19,6 +19,9 @@ The setup compares two modes of generating LLM responses side-by-side:
 
 Both modes run **in parallel** using a LangGraph workflow:
 
+<img width="295" height="234" alt="parallel_workflow_graph" src="https://github.com/user-attachments/assets/4e497ee4-3bed-400f-8cc5-87a07dfb418f" />
+
+
 ```text
 START
  ├── streaming (Groq API call, streamed output)
